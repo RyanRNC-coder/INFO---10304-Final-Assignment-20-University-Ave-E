@@ -1,0 +1,32 @@
+<link href="https://api.mapbox.com/mapbox-gl-js/v3.0.1/mapbox-gl.css" rel="stylesheet">
+<script src="https://api.mapbox.com/mapbox-gl-js/v3.0.1/mapbox-gl.js"></script>
+
+<div id="map"></div>
+
+<div class="map-controls">
+  <button id="info-toggle" class="toggle-btn">Info</button>
+  <button id="legend-toggle" class="toggle-btn">Legend</button>
+</div>
+
+<div id="info-panel" class="side-panel left-panel">
+  <div class="panel-content">
+    <h3>Project Overview</h3>
+    <p>This is an overview of the development application for <strong>20 University Avenue East</strong> in Waterloo, Ontario.</p>
+    <p>The owner, Brandon Simon of The Planning Partnership, is proposing to redevelop the downtown site with a new 25-storey mixed-use building. The site will provide 260 dwelling units as well as 647 square meters of GFA commercial space.</p>
+    <h4>Zoning Bylaw Amendments</h4>
+    <ul>
+      <li>Removing the holding (H) symbol</li>
+      <li>Increasing tower dimension (40m to 43m)</li>
+      <li>Allowing stacked bicycle parking</li>
+      <li>Increasing driveway width to 10m</li>
+      <li>Allowing a portion to have 26 storeys</li>
+    </ul>
+  </div>
+</div>
+
+<div id="legend-panel" class="side-panel right-panel">
+  <div class="panel-content">
+    <h3>Legend</h3>
+    <div id="legend-items"></div>
+  </div>
+</div>
